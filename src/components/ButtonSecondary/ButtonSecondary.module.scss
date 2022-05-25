@@ -2,20 +2,19 @@
   flex-flow: column;
   justify-content: center;
   align-content: center;
-  padding: 5px 10px;
-  border-radius: 30px;
+  padding: 10px 20px;
+  border-radius: 10px;
   cursor: pointer;
   user-select: none;
   border: none;
-  background-color: #324373;
-  color: #F2CA50;
+  background-color: #34BFB1;
+  color: #324373;
   font-weight: 600;
   letter-spacing: 0.5px;
-  transition: background-color 1s;
+  transition: outline-color 1s;
 
   &:hover {
-    background-color: #F2CA50;
-    color: #324373;
+    outline: #DCEEF2 3px solid;
   }
 }
 

@@ -1,0 +1,23 @@
+.card {
+  display: flex;
+  flex-flow: column;
+  gap: 16px;
+  align-items: stretch;
+  width: 100%;
+  background-color: #34BFB1;
+  padding: 10px 30px 20px;
+  border-radius: 20px;
+  box-shadow: #F2CA50 1px -1px 5px 4px;
+}
+
+.title {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 2px solid #798C35;
+}
